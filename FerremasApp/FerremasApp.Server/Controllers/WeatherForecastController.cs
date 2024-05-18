@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace FerremasApp.Server.Controllers
+namespace FerremasWEB.Server.Controllers
 {
     [ApiController]
     [Route("[controller]")]

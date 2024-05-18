@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "ferremasapp.client": {
+    "ferremasweb.client": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -23,7 +23,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/ferremasapp.client",
+            "outputPath": "dist/ferremasweb.client",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -67,10 +67,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "ferremasapp.client:build:production"
+              "buildTarget": "ferremasweb.client:build:production"
             },
             "development": {
-              "buildTarget": "ferremasapp.client:build:development"
+              "buildTarget": "ferremasweb.client:build:development"
             }
           },
           "defaultConfiguration": "development",
@@ -81,7 +81,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "ferremasapp.client:build"
+            "buildTarget": "ferremasweb.client:build"
           }
         },
         "test": {
@@ -105,5 +105,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "dfb12600-9d9e-48b4-97f3-f8a1f5be501a"
   }
 }

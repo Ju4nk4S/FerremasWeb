@@ -33,5 +33,5 @@ export class AppComponent implements OnInit {
     );
   }
 
-  title = 'ferremasapp.client';
+  title = 'ferremasweb.client';
 }
