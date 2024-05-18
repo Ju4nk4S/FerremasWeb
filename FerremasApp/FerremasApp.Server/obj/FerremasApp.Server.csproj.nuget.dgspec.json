@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Visual Studio\\ProyectoSemestral\\GitHub\\FerremasApp\\FerremasApp.Server\\FerremasApp.Server.csproj": {}
+    "D:\\Visual Studio\\ProyectoSemestral\\FerremasApp\\FerremasApp.Server\\FerremasApp.Server.csproj": {}
   },
   "projects": {
-    "D:\\Visual Studio\\ProyectoSemestral\\GitHub\\FerremasApp\\FerremasApp.Server\\FerremasApp.Server.csproj": {
+    "D:\\Visual Studio\\ProyectoSemestral\\FerremasApp\\FerremasApp.Server\\FerremasApp.Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Visual Studio\\ProyectoSemestral\\GitHub\\FerremasApp\\FerremasApp.Server\\FerremasApp.Server.csproj",
+        "projectUniqueName": "D:\\Visual Studio\\ProyectoSemestral\\FerremasApp\\FerremasApp.Server\\FerremasApp.Server.csproj",
         "projectName": "FerremasApp.Server",
-        "projectPath": "D:\\Visual Studio\\ProyectoSemestral\\GitHub\\FerremasApp\\FerremasApp.Server\\FerremasApp.Server.csproj",
+        "projectPath": "D:\\Visual Studio\\ProyectoSemestral\\FerremasApp\\FerremasApp.Server\\FerremasApp.Server.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\Visual Studio\\ProyectoSemestral\\GitHub\\FerremasApp\\FerremasApp.Server\\obj\\",
+        "outputPath": "D:\\Visual Studio\\ProyectoSemestral\\FerremasApp\\FerremasApp.Server\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Visual Studio\\2022\\Shared\\NuGetPackages"

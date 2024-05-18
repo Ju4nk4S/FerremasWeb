@@ -9,7 +9,7 @@ namespace FerremasApp.Server.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize]
+    //[Authorize]
     public class ProductosController : ControllerBase
     {
         private readonly IConfiguration configuration;

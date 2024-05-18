@@ -1,1 +1,22 @@
-<p>productos works!</p>
+<div class="container">
+    <h1>Lista de Productos</h1>
+    <table class="table table-striped table-bordered">
+        <thead class="thead-dark">
+            <tr>
+                <th>#</th>
+                <th>Nombre</th>
+                <th>Descripción</th>
+                <th>Precio</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Aquí irá tu ciclo para mostrar los productos -->
+            <tr *ngFor="let pro of listaProductos">
+                <td>{{pro.id}}</td>
+                <td>{{pro.nombre}}</td>
+                <td>{{pro.descripcion}}</td>
+                <td>{{pro.precio}}€</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

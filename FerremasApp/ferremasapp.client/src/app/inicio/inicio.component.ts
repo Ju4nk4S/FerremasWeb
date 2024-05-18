@@ -7,11 +7,14 @@ import { Router } from '@angular/router'
   styleUrl: './inicio.component.css'
 })
 export class InicioComponent {
-  constructor(private router: Router) { }
+  constructor(private router: Router) {
 
-  public Ferreteria = "FerremasWeb"
+  }
+  public Ferretria = "Ferremas Web";
   public Navegar() {
-    this.router.navigate(['/login']);
+    this.router.navigate(['/Productos'])
+    
+
   }
 
 }
