@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "0lBb6zJfvaBvDdJtTqA93EZs6Ky7S6JBV65+WiSq6+s=",
+  "Source": "FerremasApp.Server",
+  "BasePath": "_content/FerremasApp.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "D:\\Visual Studio\\ProyectoSemestral\\FerremasApp\\ferremasapp.client\\ferremasapp.client.esproj",
+      "Version": 2,
+      "Source": "ferremasapp.client",
+      "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
