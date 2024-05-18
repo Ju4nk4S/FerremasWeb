@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FerremasApp.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3707e6e058ae817113b25a76fe01f8d15e7fa899")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0c7eccce9bb984c2efa0786b5e98d38e55caffc6")]
 [assembly: System.Reflection.AssemblyProductAttribute("FerremasApp.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FerremasApp.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
