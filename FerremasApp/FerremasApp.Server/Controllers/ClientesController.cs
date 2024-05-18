@@ -1,9 +1,10 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using FerremasWEB.Server.Modelos;
-using FerremasWEB.Server.Modelos.ViewModels;
+using FerremasApp.Server.Modelos;
+using FerremasApp.Server.Modelos.ViewModels;
 using System.Text;
-namespace FerremasWEB.Server.Controllers
+
+namespace FerremasApp.Server.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
@@ -14,27 +15,30 @@ namespace FerremasWEB.Server.Controllers
         {
             this.configuration = configuration;
         }
+
+
+
+
+
         [HttpGet]
         public IActionResult DameClientes()
         {
             Resultado res = new Resultado();
             try
             {
-                using (FerremasWebContext basedatos = new FerremasWebContext())
+                using (FerremasAppContext basedatos = new FerremasAppContext())
                 {
-                    var lista = basedatos.Clientes.ToList();
+                    var lista = basedatos.Clientes2s.ToList();
                     res.ObjetoGenerico = lista;
                 }
             }
-            catch (Exception ex)
+            catch (Exception ex) 
             {
-                res.Error = "Error al obtener los clientes " + ex.Message;
+                res.Error="Error al obtener clientes" + ex.Message; 
             }
 
-            return Ok(res);
-
+             return Ok(res);  
         }
-
         [HttpPost]
         public IActionResult AgregarCliente(ClienteViewmodel c)
         {
@@ -44,17 +48,15 @@ namespace FerremasWEB.Server.Controllers
                 byte[] keyBbyte = new byte[] { 1, 2, 3, 4, 5, 6, 7, 8 };
                 Util util = new Util(keyBbyte);
 
-                using (FerremasWebContext basedatos = new FerremasWebContext())
+                using (FerremasAppContext basedatos = new FerremasAppContext())
                 {
 
-                    Cliente cliente = new Cliente();
+                    Clientes2 cliente = new Clientes2();
                     cliente.Nombre = c.nombre;
                     cliente.Email = c.email;
-                    cliente.Password = Encoding.ASCII.GetBytes(util.cifrar(c.pass, configuration["ClaveCifrado"]));
-                    cliente.Direccion = c.drireccion;
-                    cliente.Telefono = c.telefono;
+                    cliente.Password = Encoding.ASCII.GetBytes(util.cifrar(c.pass, configuration["ClaveCifrado"]));                    
                     cliente.FechaAlta = DateTime.Now;
-                    basedatos.Clientes.Add(cliente);
+                    basedatos.Clientes2s.Add(cliente);
                     basedatos.SaveChanges();
                 }
             }
@@ -75,7 +77,7 @@ namespace FerremasWEB.Server.Controllers
                 byte[] keyBbyte = new byte[] { 1, 2, 3, 4, 5, 6, 7, 8 };
                 Util util = new Util(keyBbyte);
 
-                using (FerremasWebContext basedatos = new FerremasWebContext())
+                using (FerremasAppContext basedatos = new FerremasAppContext())
                 {
 
                     Cliente cliente = basedatos.Clientes.Single(cli => cli.Email == c.email);
@@ -100,7 +102,7 @@ namespace FerremasWEB.Server.Controllers
             try
             {
 
-                using (FerremasWebContext basedatos = new FerremasWebContext())
+                using (FerremasAppContext basedatos = new FerremasAppContext())
                 {
 
                     Cliente cliente = basedatos.Clientes.Single(cli => cli.Email == Email);
@@ -119,4 +121,3 @@ namespace FerremasWEB.Server.Controllers
 
     }
 }
-

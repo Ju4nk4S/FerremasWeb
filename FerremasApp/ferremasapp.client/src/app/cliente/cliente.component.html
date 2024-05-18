@@ -1,0 +1,28 @@
+<form [formGroup]="altaForm" (ngSubmit)="onSubmit()">
+    <div class="form-group">
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" formControlName="nombre" class="form-control" [ngClass]="{ 'is-invalid': enviado && f['nombre'].errors }" />
+        <div *ngIf="enviado && f['nombre'].errors" class="invalid-feedback">
+            <div *ngIf="f['nombre'].errors['required']">Nombre es obligatorio</div>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" formControlName="email" class="form-control" [ngClass]="{ 'is-invalid': enviado && f['email'].errors }" />
+        <div *ngIf="enviado && f['email'].errors" class="invalid-feedback">
+            <div *ngIf="f['email'].errors['required']">Email es obligatorio</div>
+            <div *ngIf="f['email'].errors['email']">Email con formato incorrecto</div>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="pass">Password</label>
+        <input type="password" id="pass" formControlName="pass" class="form-control" [ngClass]="{ 'is-invalid': enviado && f['pass'].errors }" />
+        <div *ngIf="enviado && f['pass'].errors" class="invalid-feedback">
+            <div *ngIf="f['pass'].errors['required']">Password es obligatorio</div>
+        </div>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Enviar</button>
+</form>
