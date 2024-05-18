@@ -1,0 +1,8 @@
+{
+"SpaProxyServer": {
+"ServerUrl": "https://localhost:4200",
+"LaunchCommand": "npm start",
+"WorkingDirectory": "D:\\Visual Studio\\ProyectoSemestral\\GitHub\\FerremasApp\\FerremasApp.Server\\..\\ferremasapp.client",
+"MaxTimeoutInSeconds": "120"
+}
+}
