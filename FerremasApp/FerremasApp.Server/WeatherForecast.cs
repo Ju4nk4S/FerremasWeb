@@ -1,4 +1,4 @@
-namespace FerremasApp.Server
+namespace FerremasWEB.Server
 {
     public class WeatherForecast
     {
