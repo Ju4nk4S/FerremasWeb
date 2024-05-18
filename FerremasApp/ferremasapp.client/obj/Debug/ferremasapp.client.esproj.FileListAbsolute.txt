@@ -1,1 +1,2 @@
 D:\Visual Studio\ProyectoSemestral\FerremasApp\ferremasapp.client\obj\Debug\ferremasapp.client.esproj.CoreCompileInputs.cache
+D:\Visual Studio\ProyectoSemestral\GitHub\FerremasApp\ferremasapp.client\obj\Debug\ferremasapp.client.esproj.CoreCompileInputs.cache

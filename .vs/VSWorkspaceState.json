@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\.github\\workflows",
+    "\\FerremasApp",
+    "\\FerremasApp\\ferremasapp.client\\.angular",
+    "\\FerremasApp\\ferremasapp.client\\obj",
+    "\\FerremasApp\\ferremasapp.client\\src"
+  ],
+  "SelectedNode": "\\FerremasApp\\FerremasApp.sln",
+  "PreviewInSolutionExplorer": false
+}

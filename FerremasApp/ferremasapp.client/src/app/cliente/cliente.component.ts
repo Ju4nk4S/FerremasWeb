@@ -24,8 +24,7 @@ export class ClienteComponent implements OnInit {
     this.altaForm = this.formBuilder.group({
       nombre: ['', Validators.required],
       email: ['', [Validators.required, Validators.email]],
-      pass: ['',
-      .required]
+      pass: ['', [Validators.required]]
     });
   }
 
