@@ -34,7 +34,7 @@
           "Microsoft.AspNetCore.App"
         ]
       },
-      "Microsoft.AspNetCore.SpaProxy/6.0.29": {
+      "Microsoft.AspNetCore.SpaProxy/6.0.30": {
         "type": "package",
         "compile": {
           "lib/net6.0/Microsoft.AspNetCore.SpaProxy.dll": {}
@@ -935,10 +935,10 @@
         "microsoft.aspnetcore.authentication.jwtbearer.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.SpaProxy/6.0.29": {
-      "sha512": "QQrcqooMEx7Yme+7AufWN7cGBP9ZOrc7vGRZAJxCvW51D+q1EruHw3EB6RRtY8Lz7LzwTRDARYLYePM5cY8xMQ==",
+    "Microsoft.AspNetCore.SpaProxy/6.0.30": {
+      "sha512": "+PW6q4XkBmS+bIOC8fbontndxqlzRua7vxZi5XIRmKJaK6sNcCo+XLUaa9Wh9BXtBd3yBofQ/D8g37s1gy+t0Q==",
       "type": "package",
-      "path": "microsoft.aspnetcore.spaproxy/6.0.29",
+      "path": "microsoft.aspnetcore.spaproxy/6.0.30",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -946,7 +946,7 @@
         "THIRD-PARTY-NOTICES.TXT",
         "build/Microsoft.AspNetCore.SpaProxy.targets",
         "lib/net6.0/Microsoft.AspNetCore.SpaProxy.dll",
-        "microsoft.aspnetcore.spaproxy.6.0.29.nupkg.sha512",
+        "microsoft.aspnetcore.spaproxy.6.0.30.nupkg.sha512",
         "microsoft.aspnetcore.spaproxy.nuspec"
       ]
     },
@@ -2518,11 +2518,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Visual Studio\\ProyectoSemestral\\FerremasApp\\FerremasApp.Server\\FerremasApp.Server.csproj",
+      "projectUniqueName": "D:\\Visual Studio\\ProyectoSemestral\\GitHub\\FerremasApp\\FerremasApp.Server\\FerremasApp.Server.csproj",
       "projectName": "FerremasApp.Server",
-      "projectPath": "D:\\Visual Studio\\ProyectoSemestral\\FerremasApp\\FerremasApp.Server\\FerremasApp.Server.csproj",
+      "projectPath": "D:\\Visual Studio\\ProyectoSemestral\\GitHub\\FerremasApp\\FerremasApp.Server\\FerremasApp.Server.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\Visual Studio\\ProyectoSemestral\\FerremasApp\\FerremasApp.Server\\obj\\",
+      "outputPath": "D:\\Visual Studio\\ProyectoSemestral\\GitHub\\FerremasApp\\FerremasApp.Server\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Visual Studio\\2022\\Shared\\NuGetPackages"

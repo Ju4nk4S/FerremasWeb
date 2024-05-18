@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "0lBb6zJfvaBvDdJtTqA93EZs6Ky7S6JBV65+WiSq6+s=",
+  "Hash": "SOgK+eQhiAiUjORCyiNM4PcrazshGagluFxZKVot4j8=",
   "Source": "FerremasApp.Server",
   "BasePath": "_content/FerremasApp.Server",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "D:\\Visual Studio\\ProyectoSemestral\\FerremasApp\\ferremasapp.client\\ferremasapp.client.esproj",
+      "Identity": "D:\\Visual Studio\\ProyectoSemestral\\GitHub\\FerremasApp\\ferremasapp.client\\ferremasapp.client.esproj",
       "Version": 2,
       "Source": "ferremasapp.client",
       "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
